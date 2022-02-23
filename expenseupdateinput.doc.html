@@ -165,6 +165,11 @@
                 DateTimeField
             </a>
         </li>
+        <li  title="ExpenseCurrencySource">
+            <a href="expensecurrencysource.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                ExpenseCurrencySource
+            </a>
+        </li>
         <li  title="ExpenseProcessAction">
             <a href="expenseprocessaction.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 ExpenseProcessAction
@@ -183,6 +188,11 @@
         <li  title="ExpenseType">
             <a href="expensetype.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 ExpenseType
+            </a>
+        </li>
+        <li  title="FeesPayer">
+            <a href="feespayer.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                FeesPayer
             </a>
         </li>
         <li  title="HostApplicationStatus">
@@ -248,6 +258,11 @@
         <li  title="PayoutMethodType">
             <a href="payoutmethodtype.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 PayoutMethodType
+            </a>
+        </li>
+        <li  title="Policy">
+            <a href="policy.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                Policy
             </a>
         </li>
         <li  title="ProcessHostApplicationAction">
@@ -500,6 +515,11 @@
                 ExpensePermissions
             </a>
         </li>
+        <li  title="ExpenseQuote">
+            <a href="expensequote.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                ExpenseQuote
+            </a>
+        </li>
         <li  title="ExpenseStats">
             <a href="expensestats.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 ExpenseStats
@@ -633,6 +653,11 @@
         <li  title="PaypalPlan">
             <a href="paypalplan.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 PaypalPlan
+            </a>
+        </li>
+        <li  title="Permission">
+            <a href="permission.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                Permission
             </a>
         </li>
         <li  title="ProcessHostApplicationResponse">
@@ -850,6 +875,11 @@
                 CreditCardCreateInput
             </a>
         </li>
+        <li  title="EventCreateInput">
+            <a href="eventcreateinput.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                EventCreateInput
+            </a>
+        </li>
         <li  title="ExpenseAttachedFileInput">
             <a href="expenseattachedfileinput.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 ExpenseAttachedFileInput
@@ -868,6 +898,11 @@
         <li  title="ExpenseInvitee">
             <a href="expenseinvitee.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 ExpenseInvitee
+            </a>
+        </li>
+        <li  title="ExpenseInviteeOrganizationInput">
+            <a href="expenseinviteeorganizationinput.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                ExpenseInviteeOrganizationInput
             </a>
         </li>
         <li  title="ExpenseItemCreateInput">
@@ -940,6 +975,11 @@
                 OrderCreateInput
             </a>
         </li>
+        <li  title="OrderFromAccountInfo">
+            <a href="orderfromaccountinfo.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                OrderFromAccountInfo
+            </a>
+        </li>
         <li  title="OrderReferenceInput">
             <a href="orderreferenceinput.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 OrderReferenceInput
@@ -948,6 +988,11 @@
         <li  title="OrderTaxInput">
             <a href="ordertaxinput.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 OrderTaxInput
+            </a>
+        </li>
+        <li  title="OrderUpdateInput">
+            <a href="orderupdateinput.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                OrderUpdateInput
             </a>
         </li>
         <li  title="OrganizationCreateInput">
@@ -1020,11 +1065,6 @@
                 VirtualCardReferenceInput
             </a>
         </li>
-        <li  title="VirtualCardUpdateInput">
-            <a href="virtualcardupdateinput.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
-                VirtualCardUpdateInput
-            </a>
-        </li>
     </ul>
 </div>
 <div class="slds-grid slds-grid--vertical slds-navigation-list--vertical">
@@ -1078,7 +1118,7 @@
             </a>
             GraphQL Schema definition
         </h2>
-        <code class="highlight"><ul class="code" style="padding-left:42px"><li><span class="keyword operator ts">input</span> <span class="identifier">ExpenseUpdateInput</span> {</li><li><span class="tab"><li><span class="tab"><span class="comment line">#   ID of the expense that you are trying to edit</span></span></li><li><span class="tab"><span class="meta">id</span>: <a class="support type" href="string.doc.html">String</a>!</span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   Main title of the expense</span></span></li><li><span class="tab"><span class="meta">description</span>: <a class="support type" href="string.doc.html">String</a></span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   Longer text to attach to the expense</span></span></li><li><span class="tab"><span class="meta">longDescription</span>: <a class="support type" href="string.doc.html">String</a></span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   Tags associated to the expense (ie. Food, Engineering...)</span></span></li><li><span class="tab"><span class="meta">tags</span>: [<a class="support type" href="string.doc.html">String</a>]</span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   The type of the expense</span></span></li><li><span class="tab"><span class="meta">type</span>: <a class="support type" href="expensetype.doc.html">ExpenseType</a></span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   A private note that will be attached to your invoice, as HTML</span></span></li><li><span class="tab"><span class="meta">privateMessage</span>: <a class="support type" href="string.doc.html">String</a></span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   Tax ID, VAT number...etc This information will be printed on your invoice.</span></span></li><li><span class="tab"><span class="meta">invoiceInfo</span>: <a class="support type" href="string.doc.html">String</a></span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   The payout method that will be used to reimburse the expense</span></span></li><li><span class="tab"><span class="meta">payoutMethod</span>: <a class="support type" href="payoutmethodinput.doc.html">PayoutMethodInput</a></span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   @deprecated 2020-04-08: Please use the items field - The list of items for this </span></span></li><li><span class="tab"><span class="comment line">#   expense. Total amount will be computed from them.</span></span></li><li><span class="tab"><span class="meta">attachments</span>: [<a class="support type" href="expenseiteminput.doc.html">ExpenseItemInput</a>]</span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   The list of items for this expense. Total amount will be computed from them.</span></span></li><li><span class="tab"><span class="meta">items</span>: [<a class="support type" href="expenseiteminput.doc.html">ExpenseItemInput</a>]</span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   (Optional) A list of files that you want to attach to this expense</span></span></li><li><span class="tab"><span class="meta">attachedFiles</span>: [<a class="support type" href="expenseattachedfileinput.doc.html">ExpenseAttachedFileInput</a>!]</span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   Account to reimburse</span></span></li><li><span class="tab"><span class="meta">payee</span>: <a class="support type" href="newaccountorreferenceinput.doc.html">NewAccountOrReferenceInput</a></span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   The address of the payee</span></span></li><li><span class="tab"><span class="meta">payeeLocation</span>: <a class="support type" href="locationinput.doc.html">LocationInput</a></span></li></span></li><li>}</li></ul></code>
+        <code class="highlight"><ul class="code" style="padding-left:42px"><li><span class="keyword operator ts">input</span> <span class="identifier">ExpenseUpdateInput</span> {</li><li><span class="tab"><li><span class="tab"><span class="comment line">#   ID of the expense that you are trying to edit</span></span></li><li><span class="tab"><span class="meta">id</span>: <a class="support type" href="string.doc.html">String</a>!</span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   Main title of the expense</span></span></li><li><span class="tab"><span class="meta">description</span>: <a class="support type" href="string.doc.html">String</a></span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   Longer text to attach to the expense</span></span></li><li><span class="tab"><span class="meta">longDescription</span>: <a class="support type" href="string.doc.html">String</a></span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   Currency that should be used for the payout. Defaults to the account currency</span></span></li><li><span class="tab"><span class="meta">currency</span>: <a class="support type" href="currency.doc.html">Currency</a></span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   Tags associated to the expense (ie. Food, Engineering...)</span></span></li><li><span class="tab"><span class="meta">tags</span>: [<a class="support type" href="string.doc.html">String</a>]</span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   The type of the expense</span></span></li><li><span class="tab"><span class="meta">type</span>: <a class="support type" href="expensetype.doc.html">ExpenseType</a></span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   A private note that will be attached to your invoice, as HTML</span></span></li><li><span class="tab"><span class="meta">privateMessage</span>: <a class="support type" href="string.doc.html">String</a></span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   Tax ID, VAT number...etc This information will be printed on your invoice.</span></span></li><li><span class="tab"><span class="meta">invoiceInfo</span>: <a class="support type" href="string.doc.html">String</a></span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   The payout method that will be used to reimburse the expense</span></span></li><li><span class="tab"><span class="meta">payoutMethod</span>: <a class="support type" href="payoutmethodinput.doc.html">PayoutMethodInput</a></span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   @deprecated 2020-04-08: Please use the items field - The list of items for this </span></span></li><li><span class="tab"><span class="comment line">#   expense. Total amount will be computed from them.</span></span></li><li><span class="tab"><span class="meta">attachments</span>: [<a class="support type" href="expenseiteminput.doc.html">ExpenseItemInput</a>]</span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   The list of items for this expense. Total amount will be computed from them.</span></span></li><li><span class="tab"><span class="meta">items</span>: [<a class="support type" href="expenseiteminput.doc.html">ExpenseItemInput</a>]</span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   (Optional) A list of files that you want to attach to this expense</span></span></li><li><span class="tab"><span class="meta">attachedFiles</span>: [<a class="support type" href="expenseattachedfileinput.doc.html">ExpenseAttachedFileInput</a>!]</span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   Account to reimburse</span></span></li><li><span class="tab"><span class="meta">payee</span>: <a class="support type" href="newaccountorreferenceinput.doc.html">NewAccountOrReferenceInput</a></span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   The address of the payee</span></span></li><li><span class="tab"><span class="meta">payeeLocation</span>: <a class="support type" href="locationinput.doc.html">LocationInput</a></span></li></span></li><li>}</li></ul></code>
     </div>
 </section>
 <section>

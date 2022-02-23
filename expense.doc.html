@@ -165,6 +165,11 @@
                 DateTimeField
             </a>
         </li>
+        <li  title="ExpenseCurrencySource">
+            <a href="expensecurrencysource.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                ExpenseCurrencySource
+            </a>
+        </li>
         <li  title="ExpenseProcessAction">
             <a href="expenseprocessaction.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 ExpenseProcessAction
@@ -183,6 +188,11 @@
         <li  title="ExpenseType">
             <a href="expensetype.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 ExpenseType
+            </a>
+        </li>
+        <li  title="FeesPayer">
+            <a href="feespayer.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                FeesPayer
             </a>
         </li>
         <li  title="HostApplicationStatus">
@@ -248,6 +258,11 @@
         <li  title="PayoutMethodType">
             <a href="payoutmethodtype.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 PayoutMethodType
+            </a>
+        </li>
+        <li  title="Policy">
+            <a href="policy.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                Policy
             </a>
         </li>
         <li  title="ProcessHostApplicationAction">
@@ -500,6 +515,11 @@
                 ExpensePermissions
             </a>
         </li>
+        <li  title="ExpenseQuote">
+            <a href="expensequote.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                ExpenseQuote
+            </a>
+        </li>
         <li  title="ExpenseStats">
             <a href="expensestats.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 ExpenseStats
@@ -633,6 +653,11 @@
         <li  title="PaypalPlan">
             <a href="paypalplan.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 PaypalPlan
+            </a>
+        </li>
+        <li  title="Permission">
+            <a href="permission.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                Permission
             </a>
         </li>
         <li  title="ProcessHostApplicationResponse">
@@ -850,6 +875,11 @@
                 CreditCardCreateInput
             </a>
         </li>
+        <li  title="EventCreateInput">
+            <a href="eventcreateinput.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                EventCreateInput
+            </a>
+        </li>
         <li  title="ExpenseAttachedFileInput">
             <a href="expenseattachedfileinput.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 ExpenseAttachedFileInput
@@ -868,6 +898,11 @@
         <li  title="ExpenseInvitee">
             <a href="expenseinvitee.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 ExpenseInvitee
+            </a>
+        </li>
+        <li  title="ExpenseInviteeOrganizationInput">
+            <a href="expenseinviteeorganizationinput.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                ExpenseInviteeOrganizationInput
             </a>
         </li>
         <li  title="ExpenseItemCreateInput">
@@ -940,6 +975,11 @@
                 OrderCreateInput
             </a>
         </li>
+        <li  title="OrderFromAccountInfo">
+            <a href="orderfromaccountinfo.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                OrderFromAccountInfo
+            </a>
+        </li>
         <li  title="OrderReferenceInput">
             <a href="orderreferenceinput.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 OrderReferenceInput
@@ -948,6 +988,11 @@
         <li  title="OrderTaxInput">
             <a href="ordertaxinput.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 OrderTaxInput
+            </a>
+        </li>
+        <li  title="OrderUpdateInput">
+            <a href="orderupdateinput.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                OrderUpdateInput
             </a>
         </li>
         <li  title="OrganizationCreateInput">
@@ -1020,11 +1065,6 @@
                 VirtualCardReferenceInput
             </a>
         </li>
-        <li  title="VirtualCardUpdateInput">
-            <a href="virtualcardupdateinput.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
-                VirtualCardUpdateInput
-            </a>
-        </li>
     </ul>
 </div>
 <div class="slds-grid slds-grid--vertical slds-navigation-list--vertical">
@@ -1079,7 +1119,7 @@
             </a>
             GraphQL Schema definition
         </h2>
-        <code class="highlight"><ul class="code" style="padding-left:42px"><li><span class="keyword operator ts">type</span> <span class="identifier">Expense</span> {</li><li></li><li><span class="tab"><span class="meta">id</span>: <a class="support type" href="string.doc.html">String</a>! </span></li><li></li><li><span class="tab"><span class="comment line">#   Legacy ID as returned by API V1. Avoid relying on this field as it may be </span></span></li><li><span class="tab"><span class="comment line">#   removed in the future.</span></span></li><li><span class="tab"><span class="meta">legacyId</span>: <a class="support type" href="int.doc.html">Int</a>! </span></li><li></li><li><span class="tab"><span class="comment line">#   Title/main description for this expense</span></span></li><li><span class="tab"><span class="meta">description</span>: <a class="support type" href="string.doc.html">String</a>! </span></li><li></li><li><span class="tab"><span class="comment line">#   Longer description for this expense</span></span></li><li><span class="tab"><span class="meta">longDescription</span>: <a class="support type" href="string.doc.html">String</a> </span></li><li></li><li><span class="tab"><span class="comment line">#   Total amount of the expense (sum of the item's amounts).</span></span></li><li><span class="tab"><span class="meta">amount</span>: <a class="support type" href="int.doc.html">Int</a>! </span></li><li></li><li><span class="tab"><span class="comment line">#   The time of creation</span></span></li><li><span class="tab"><span class="meta">createdAt</span>: <a class="support type" href="datetime.doc.html">DateTime</a>! </span></li><li></li><li><span class="tab"><span class="comment line">#   Currency that should be used for the payout</span></span></li><li><span class="tab"><span class="meta">currency</span>: <a class="support type" href="currency.doc.html">Currency</a>! </span></li><li></li><li><span class="tab"><span class="comment line">#   Whether this expense is a receipt or an invoice</span></span></li><li><span class="tab"><span class="meta">type</span>: <a class="support type" href="expensetype.doc.html">ExpenseType</a>! </span></li><li></li><li><span class="tab"><span class="comment line">#   The state of the expense (pending, approved, paid, rejected...etc)</span></span></li><li><span class="tab"><span class="meta">status</span>: <a class="support type" href="expensestatus.doc.html">ExpenseStatus</a>! </span></li><li></li><li><span class="tab"><span class="comment line">#   Returns the list of comments for this expense, or `null` if user is not allowed </span></span></li><li><span class="tab"><span class="comment line">#   to see them</span></span></li><li><span class="tab"><span class="comment line"># </span></span></li><li><span class="tab"><span class="comment line"># Arguments</span></span></li><li><span class="tab"><span class="comment line">#   <strong>limit</strong>: The number of results to fetch (default 10, max 1000)</span></span></li><li><span class="tab"><span class="comment line">#   <strong>offset</strong>: The offset to use to fetch</span></span></li><li><span class="tab"><span class="comment line">#   <strong>orderBy</strong>: [<strong>Not documented</strong>]</span></span></li><li><span class="tab"><span class="meta">comments</span>(<span class="meta">limit</span>: <a class="support type" href="int.doc.html">Int</a>!, <span class="meta">offset</span>: <a class="support type" href="int.doc.html">Int</a>!, <span class="meta">orderBy</span>: <a class="support type" href="chronologicalorderinput.doc.html">ChronologicalOrderInput</a>): <a class="support type" href="commentcollection.doc.html">CommentCollection</a> </span></li><li></li><li><span class="tab"><span class="comment line">#   The account where the expense was submitted</span></span></li><li><span class="tab"><span class="meta">account</span>: <a class="support type" href="account.doc.html">Account</a>! </span></li><li></li><li><span class="tab"><span class="comment line">#   The account being paid by this expense</span></span></li><li><span class="tab"><span class="meta">payee</span>: <a class="support type" href="account.doc.html">Account</a>! </span></li><li></li><li><span class="tab"><span class="comment line">#   The address of the payee</span></span></li><li><span class="tab"><span class="meta">payeeLocation</span>: <a class="support type" href="location.doc.html">Location</a> </span></li><li></li><li><span class="tab"><span class="comment line">#   The account who created this expense</span></span></li><li><span class="tab"><span class="meta">createdByAccount</span>: <a class="support type" href="account.doc.html">Account</a> </span></li><li></li><li><span class="tab"><span class="comment line">#   The account from where the expense was paid</span></span></li><li><span class="tab"><span class="meta">host</span>: <a class="support type" href="account.doc.html">Account</a> </span></li><li></li><li><span class="tab"><span class="comment line">#   The payout method to use for this expense</span></span></li><li><span class="tab"><span class="meta">payoutMethod</span>: <a class="support type" href="payoutmethod.doc.html">PayoutMethod</a> </span></li><li></li><li><span class="tab"><span class="comment line">#   The virtual card used to pay for this charge</span></span></li><li><span class="tab"><span class="meta">virtualCard</span>: <a class="support type" href="virtualcard.doc.html">VirtualCard</a> </span></li><li></li><li><span class="tab"><span class="comment line">#   (Optional) files attached to the expense</span></span></li><li><span class="tab"><span class="meta">attachedFiles</span>: [<a class="support type" href="expenseattachedfile.doc.html">ExpenseAttachedFile</a>!] </span></li><li></li><li><span class="tab"><span class="meta">attachments</span>: [<a class="support type" href="expenseitem.doc.html">ExpenseItem</a>] <span class="keyword operator ts">@deprecated</span>( reason: <span class="string">"2020-04-08: Field has been renamed to "items"" </span> )</span></li><li></li><li><span class="tab"><span class="meta">items</span>: [<a class="support type" href="expenseitem.doc.html">ExpenseItem</a>] </span></li><li></li><li><span class="tab"><span class="comment line">#   Additional information about the payment as HTML. Only visible to user and </span></span></li><li><span class="tab"><span class="comment line">#   admins.</span></span></li><li><span class="tab"><span class="meta">privateMessage</span>: <a class="support type" href="string.doc.html">String</a> </span></li><li></li><li><span class="tab"><span class="comment line">#   Information to display on the invoice. Only visible to user and admins.</span></span></li><li><span class="tab"><span class="meta">invoiceInfo</span>: <a class="support type" href="string.doc.html">String</a> </span></li><li></li><li><span class="tab"><span class="comment line">#   The permissions given to current logged in user for this expense</span></span></li><li><span class="tab"><span class="meta">permissions</span>: <a class="support type" href="expensepermissions.doc.html">ExpensePermissions</a>! </span></li><li></li><li><span class="tab"><span class="comment line">#   The list of activities (ie. approved, edited, etc) for this expense ordered by </span></span></li><li><span class="tab"><span class="comment line">#   date ascending</span></span></li><li><span class="tab"><span class="meta">activities</span>: [<a class="support type" href="activity.doc.html">Activity</a>!]! </span></li><li></li><li><span class="tab"><span class="meta">tags</span>: [<a class="support type" href="string.doc.html">String</a>]! </span></li><li></li><li><span class="tab"><span class="comment line">#   Returns the list of legal documents required from the payee before the expense </span></span></li><li><span class="tab"><span class="comment line">#   can be payed. Must be logged in.</span></span></li><li><span class="tab"><span class="meta">requiredLegalDocuments</span>: [<a class="support type" href="legaldocumenttype.doc.html">LegalDocumentType</a>] </span></li><li></li><li><span class="tab"><span class="comment line">#   Drafted field values that were still not persisted</span></span></li><li><span class="tab"><span class="meta">draft</span>: <a class="support type" href="json.doc.html">JSON</a> </span></li><li></li><li><span class="tab"><span class="comment line">#   The account that requested this expense to be submitted</span></span></li><li><span class="tab"><span class="meta">requestedByAccount</span>: <a class="support type" href="account.doc.html">Account</a> </span></li><li>}</li></ul></code>
+        <code class="highlight"><ul class="code" style="padding-left:56px"><li><span class="keyword operator ts">type</span> <span class="identifier">Expense</span> {</li><li></li><li><span class="tab"><span class="meta">id</span>: <a class="support type" href="string.doc.html">String</a>! </span></li><li></li><li><span class="tab"><span class="comment line">#   Legacy ID as returned by API V1. Avoid relying on this field as it may be </span></span></li><li><span class="tab"><span class="comment line">#   removed in the future.</span></span></li><li><span class="tab"><span class="meta">legacyId</span>: <a class="support type" href="int.doc.html">Int</a>! </span></li><li></li><li><span class="tab"><span class="comment line">#   Title/main description for this expense</span></span></li><li><span class="tab"><span class="meta">description</span>: <a class="support type" href="string.doc.html">String</a>! </span></li><li></li><li><span class="tab"><span class="comment line">#   Longer description for this expense</span></span></li><li><span class="tab"><span class="meta">longDescription</span>: <a class="support type" href="string.doc.html">String</a> </span></li><li></li><li><span class="tab"><span class="comment line">#   Total amount of the expense (sum of the item's amounts).</span></span></li><li><span class="tab"><span class="meta">amount</span>: <a class="support type" href="int.doc.html">Int</a>! <span class="keyword operator ts">@deprecated</span>( reason: <span class="string">"2022-02-09: Please use amountV2" </span> )</span></li><li></li><li><span class="tab"><span class="comment line">#   Total amount of the expense</span></span></li><li><span class="tab"><span class="comment line"># </span></span></li><li><span class="tab"><span class="comment line"># Arguments</span></span></li><li><span class="tab"><span class="comment line">#   <strong>currencySource</strong>: Source of the currency to express the amount. </span></span></li><li><span class="tab"><span class="comment line">#   Defaults to the expense currency</span></span></li><li><span class="tab"><span class="meta">amountV2</span>(<span class="meta">currencySource</span>: <a class="support type" href="expensecurrencysource.doc.html">ExpenseCurrencySource</a>): <a class="support type" href="amount.doc.html">Amount</a> </span></li><li></li><li><span class="tab"><span class="comment line">#   The exchange rate between the expense currency and the account currency</span></span></li><li><span class="tab"><span class="meta">accountCurrencyFxRate</span>: <a class="support type" href="float.doc.html">Float</a>! </span></li><li></li><li><span class="tab"><span class="comment line">#   The time of creation</span></span></li><li><span class="tab"><span class="meta">createdAt</span>: <a class="support type" href="datetime.doc.html">DateTime</a>! </span></li><li></li><li><span class="tab"><span class="comment line">#   Currency that should be used for the payout</span></span></li><li><span class="tab"><span class="meta">currency</span>: <a class="support type" href="currency.doc.html">Currency</a>! </span></li><li></li><li><span class="tab"><span class="comment line">#   Whether this expense is a receipt or an invoice</span></span></li><li><span class="tab"><span class="meta">type</span>: <a class="support type" href="expensetype.doc.html">ExpenseType</a>! </span></li><li></li><li><span class="tab"><span class="comment line">#   The state of the expense (pending, approved, paid, rejected...etc)</span></span></li><li><span class="tab"><span class="meta">status</span>: <a class="support type" href="expensestatus.doc.html">ExpenseStatus</a>! </span></li><li></li><li><span class="tab"><span class="comment line">#   Returns the list of comments for this expense, or `null` if user is not allowed </span></span></li><li><span class="tab"><span class="comment line">#   to see them</span></span></li><li><span class="tab"><span class="comment line"># </span></span></li><li><span class="tab"><span class="comment line"># Arguments</span></span></li><li><span class="tab"><span class="comment line">#   <strong>limit</strong>: The number of results to fetch (default 10, max 1000)</span></span></li><li><span class="tab"><span class="comment line">#   <strong>offset</strong>: The offset to use to fetch</span></span></li><li><span class="tab"><span class="comment line">#   <strong>orderBy</strong>: [<strong>Not documented</strong>]</span></span></li><li><span class="tab"><span class="meta">comments</span>(<span class="meta">limit</span>: <a class="support type" href="int.doc.html">Int</a>!, <span class="meta">offset</span>: <a class="support type" href="int.doc.html">Int</a>!, <span class="meta">orderBy</span>: <a class="support type" href="chronologicalorderinput.doc.html">ChronologicalOrderInput</a>): <a class="support type" href="commentcollection.doc.html">CommentCollection</a> </span></li><li></li><li><span class="tab"><span class="comment line">#   The account where the expense was submitted</span></span></li><li><span class="tab"><span class="meta">account</span>: <a class="support type" href="account.doc.html">Account</a>! </span></li><li></li><li><span class="tab"><span class="comment line">#   The account being paid by this expense</span></span></li><li><span class="tab"><span class="meta">payee</span>: <a class="support type" href="account.doc.html">Account</a>! </span></li><li></li><li><span class="tab"><span class="comment line">#   The address of the payee</span></span></li><li><span class="tab"><span class="meta">payeeLocation</span>: <a class="support type" href="location.doc.html">Location</a> </span></li><li></li><li><span class="tab"><span class="comment line">#   The account who created this expense</span></span></li><li><span class="tab"><span class="meta">createdByAccount</span>: <a class="support type" href="account.doc.html">Account</a> </span></li><li></li><li><span class="tab"><span class="comment line">#   The account from where the expense was paid</span></span></li><li><span class="tab"><span class="meta">host</span>: <a class="support type" href="account.doc.html">Account</a> </span></li><li></li><li><span class="tab"><span class="comment line">#   The payout method to use for this expense</span></span></li><li><span class="tab"><span class="meta">payoutMethod</span>: <a class="support type" href="payoutmethod.doc.html">PayoutMethod</a> </span></li><li></li><li><span class="tab"><span class="comment line">#   The virtual card used to pay for this charge</span></span></li><li><span class="tab"><span class="meta">virtualCard</span>: <a class="support type" href="virtualcard.doc.html">VirtualCard</a> </span></li><li></li><li><span class="tab"><span class="comment line">#   (Optional) files attached to the expense</span></span></li><li><span class="tab"><span class="meta">attachedFiles</span>: [<a class="support type" href="expenseattachedfile.doc.html">ExpenseAttachedFile</a>!] </span></li><li></li><li><span class="tab"><span class="meta">attachments</span>: [<a class="support type" href="expenseitem.doc.html">ExpenseItem</a>] <span class="keyword operator ts">@deprecated</span>( reason: <span class="string">"2020-04-08: Field has been renamed to "items"" </span> )</span></li><li></li><li><span class="tab"><span class="meta">items</span>: [<a class="support type" href="expenseitem.doc.html">ExpenseItem</a>] </span></li><li></li><li><span class="tab"><span class="comment line">#   Additional information about the payment as HTML. Only visible to user and </span></span></li><li><span class="tab"><span class="comment line">#   admins.</span></span></li><li><span class="tab"><span class="meta">privateMessage</span>: <a class="support type" href="string.doc.html">String</a> </span></li><li></li><li><span class="tab"><span class="comment line">#   Information to display on the invoice. Only visible to user and admins.</span></span></li><li><span class="tab"><span class="meta">invoiceInfo</span>: <a class="support type" href="string.doc.html">String</a> </span></li><li></li><li><span class="tab"><span class="comment line">#   The fees payer for this expense</span></span></li><li><span class="tab"><span class="meta">feesPayer</span>: <a class="support type" href="feespayer.doc.html">FeesPayer</a>! </span></li><li></li><li><span class="tab"><span class="comment line">#   The permissions given to current logged in user for this expense</span></span></li><li><span class="tab"><span class="meta">permissions</span>: <a class="support type" href="expensepermissions.doc.html">ExpensePermissions</a>! </span></li><li></li><li><span class="tab"><span class="comment line">#   The list of activities (ie. approved, edited, etc) for this expense ordered by </span></span></li><li><span class="tab"><span class="comment line">#   date ascending</span></span></li><li><span class="tab"><span class="meta">activities</span>: [<a class="support type" href="activity.doc.html">Activity</a>!]! </span></li><li></li><li><span class="tab"><span class="meta">tags</span>: [<a class="support type" href="string.doc.html">String</a>]! </span></li><li></li><li><span class="tab"><span class="comment line">#   Returns the list of legal documents required from the payee before the expense </span></span></li><li><span class="tab"><span class="comment line">#   can be payed. Must be logged in.</span></span></li><li><span class="tab"><span class="meta">requiredLegalDocuments</span>: [<a class="support type" href="legaldocumenttype.doc.html">LegalDocumentType</a>] </span></li><li></li><li><span class="tab"><span class="comment line">#   Drafted field values that were still not persisted</span></span></li><li><span class="tab"><span class="meta">draft</span>: <a class="support type" href="json.doc.html">JSON</a> </span></li><li></li><li><span class="tab"><span class="comment line">#   The account that requested this expense to be submitted</span></span></li><li><span class="tab"><span class="meta">requestedByAccount</span>: <a class="support type" href="account.doc.html">Account</a> </span></li><li></li><li><span class="tab"><span class="meta">quote</span>: <a class="support type" href="expensequote.doc.html">ExpenseQuote</a> </span></li><li>}</li></ul></code>
     </div>
 </section>
 <section>

@@ -165,6 +165,11 @@
                 DateTimeField
             </a>
         </li>
+        <li  title="ExpenseCurrencySource">
+            <a href="expensecurrencysource.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                ExpenseCurrencySource
+            </a>
+        </li>
         <li  title="ExpenseProcessAction">
             <a href="expenseprocessaction.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 ExpenseProcessAction
@@ -183,6 +188,11 @@
         <li  title="ExpenseType">
             <a href="expensetype.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 ExpenseType
+            </a>
+        </li>
+        <li  title="FeesPayer">
+            <a href="feespayer.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                FeesPayer
             </a>
         </li>
         <li  title="HostApplicationStatus">
@@ -248,6 +258,11 @@
         <li  title="PayoutMethodType">
             <a href="payoutmethodtype.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 PayoutMethodType
+            </a>
+        </li>
+        <li  title="Policy">
+            <a href="policy.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                Policy
             </a>
         </li>
         <li  title="ProcessHostApplicationAction">
@@ -500,6 +515,11 @@
                 ExpensePermissions
             </a>
         </li>
+        <li  title="ExpenseQuote">
+            <a href="expensequote.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                ExpenseQuote
+            </a>
+        </li>
         <li  title="ExpenseStats">
             <a href="expensestats.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 ExpenseStats
@@ -633,6 +653,11 @@
         <li  title="PaypalPlan">
             <a href="paypalplan.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 PaypalPlan
+            </a>
+        </li>
+        <li  title="Permission">
+            <a href="permission.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                Permission
             </a>
         </li>
         <li  title="ProcessHostApplicationResponse">
@@ -850,6 +875,11 @@
                 CreditCardCreateInput
             </a>
         </li>
+        <li  title="EventCreateInput">
+            <a href="eventcreateinput.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                EventCreateInput
+            </a>
+        </li>
         <li  title="ExpenseAttachedFileInput">
             <a href="expenseattachedfileinput.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 ExpenseAttachedFileInput
@@ -868,6 +898,11 @@
         <li  title="ExpenseInvitee">
             <a href="expenseinvitee.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 ExpenseInvitee
+            </a>
+        </li>
+        <li  title="ExpenseInviteeOrganizationInput">
+            <a href="expenseinviteeorganizationinput.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                ExpenseInviteeOrganizationInput
             </a>
         </li>
         <li  title="ExpenseItemCreateInput">
@@ -940,6 +975,11 @@
                 OrderCreateInput
             </a>
         </li>
+        <li  title="OrderFromAccountInfo">
+            <a href="orderfromaccountinfo.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                OrderFromAccountInfo
+            </a>
+        </li>
         <li  title="OrderReferenceInput">
             <a href="orderreferenceinput.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 OrderReferenceInput
@@ -948,6 +988,11 @@
         <li  title="OrderTaxInput">
             <a href="ordertaxinput.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 OrderTaxInput
+            </a>
+        </li>
+        <li  title="OrderUpdateInput">
+            <a href="orderupdateinput.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                OrderUpdateInput
             </a>
         </li>
         <li  title="OrganizationCreateInput">
@@ -1020,11 +1065,6 @@
                 VirtualCardReferenceInput
             </a>
         </li>
-        <li  title="VirtualCardUpdateInput">
-            <a href="virtualcardupdateinput.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
-                VirtualCardUpdateInput
-            </a>
-        </li>
     </ul>
 </div>
 <div class="slds-grid slds-grid--vertical slds-navigation-list--vertical">
@@ -1079,7 +1119,7 @@
             </a>
             GraphQL Schema definition
         </h2>
-        <code class="highlight"><ul class="code" style="padding-left:42px"><li><span class="keyword operator ts">input</span> <span class="identifier">OrderCreateInput</span> {</li><li><span class="tab"><li><span class="tab"><span class="meta">quantity</span>: <a class="support type" href="int.doc.html">Int</a>!</span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   The contribution amount for 1 quantity, without platform contribution and taxes</span></span></li><li><span class="tab"><span class="meta">amount</span>: <a class="support type" href="amountinput.doc.html">AmountInput</a>!</span></li></span></li><li><span class="tab"><li><span class="tab"><span class="meta">frequency</span>: <a class="support type" href="contributionfrequency.doc.html">ContributionFrequency</a>!</span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   The profile making the order. Can be null for guest contributions.</span></span></li><li><span class="tab"><span class="meta">fromAccount</span>: <a class="support type" href="accountreferenceinput.doc.html">AccountReferenceInput</a></span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   The profile you want to contribute to</span></span></li><li><span class="tab"><span class="meta">toAccount</span>: <a class="support type" href="accountreferenceinput.doc.html">AccountReferenceInput</a>!</span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   Use this when fromAccount is null to pass the guest info</span></span></li><li><span class="tab"><span class="meta">guestInfo</span>: <a class="support type" href="guestinfoinput.doc.html">GuestInfoInput</a></span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   The payment method used for this order</span></span></li><li><span class="tab"><span class="meta">paymentMethod</span>: <a class="support type" href="paymentmethodinput.doc.html">PaymentMethodInput</a></span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   Platform contribution attached to this order</span></span></li><li><span class="tab"><span class="meta">platformContributionAmount</span>: <a class="support type" href="amountinput.doc.html">AmountInput</a></span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   Use this field to set the taxes associated to this order</span></span></li><li><span class="tab"><span class="meta">taxes</span>: [<a class="support type" href="ordertaxinput.doc.html">OrderTaxInput</a>]</span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   The tier you are contributing to</span></span></li><li><span class="tab"><span class="meta">tier</span>: <a class="support type" href="tierreferenceinput.doc.html">TierReferenceInput</a></span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   Data related to this order</span></span></li><li><span class="tab"><span class="meta">data</span>: <a class="support type" href="json.doc.html">JSON</a></span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   If the tier has some "customFields", use this field to set their values</span></span></li><li><span class="tab"><span class="meta">customData</span>: <a class="support type" href="json.doc.html">JSON</a></span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   Some context about how this order was created</span></span></li><li><span class="tab"><span class="meta">context</span>: <a class="support type" href="ordercontextinput.doc.html">OrderContextInput</a></span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   Whether this is transferring the remaining balance from a </span></span></li><li><span class="tab"><span class="comment line">#   project/event/collective</span></span></li><li><span class="tab"><span class="meta">isBalanceTransfer</span>: <a class="support type" href="boolean.doc.html">Boolean</a></span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   Tags associated to the order</span></span></li><li><span class="tab"><span class="meta">tags</span>: [<a class="support type" href="string.doc.html">String</a>]</span></li></span></li><li>}</li></ul></code>
+        <code class="highlight"><ul class="code" style="padding-left:42px"><li><span class="keyword operator ts">input</span> <span class="identifier">OrderCreateInput</span> {</li><li><span class="tab"><li><span class="tab"><span class="meta">quantity</span>: <a class="support type" href="int.doc.html">Int</a>!</span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   The contribution amount for 1 quantity, without platform contribution and taxes</span></span></li><li><span class="tab"><span class="meta">amount</span>: <a class="support type" href="amountinput.doc.html">AmountInput</a>!</span></li></span></li><li><span class="tab"><li><span class="tab"><span class="meta">frequency</span>: <a class="support type" href="contributionfrequency.doc.html">ContributionFrequency</a>!</span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   The profile making the order. Can be null for guest contributions.</span></span></li><li><span class="tab"><span class="meta">fromAccount</span>: <a class="support type" href="accountreferenceinput.doc.html">AccountReferenceInput</a></span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   Additional information about the contributing profile</span></span></li><li><span class="tab"><span class="meta">fromAccountInfo</span>: <a class="support type" href="orderfromaccountinfo.doc.html">OrderFromAccountInfo</a></span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   The profile you want to contribute to</span></span></li><li><span class="tab"><span class="meta">toAccount</span>: <a class="support type" href="accountreferenceinput.doc.html">AccountReferenceInput</a>!</span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   Use this when fromAccount is null to pass the guest info</span></span></li><li><span class="tab"><span class="meta">guestInfo</span>: <a class="support type" href="guestinfoinput.doc.html">GuestInfoInput</a></span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   The payment method used for this order</span></span></li><li><span class="tab"><span class="meta">paymentMethod</span>: <a class="support type" href="paymentmethodinput.doc.html">PaymentMethodInput</a></span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   Platform tip attached to this order</span></span></li><li><span class="tab"><span class="meta">platformTipAmount</span>: <a class="support type" href="amountinput.doc.html">AmountInput</a></span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   Use this field to set the taxes associated to this order</span></span></li><li><span class="tab"><span class="meta">taxes</span>: [<a class="support type" href="ordertaxinput.doc.html">OrderTaxInput</a>]</span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   The tier you are contributing to</span></span></li><li><span class="tab"><span class="meta">tier</span>: <a class="support type" href="tierreferenceinput.doc.html">TierReferenceInput</a></span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   Data related to this order</span></span></li><li><span class="tab"><span class="meta">data</span>: <a class="support type" href="json.doc.html">JSON</a></span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   If the tier has some "customFields", use this field to set their values</span></span></li><li><span class="tab"><span class="meta">customData</span>: <a class="support type" href="json.doc.html">JSON</a></span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   Some context about how this order was created</span></span></li><li><span class="tab"><span class="meta">context</span>: <a class="support type" href="ordercontextinput.doc.html">OrderContextInput</a></span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   Whether this is transferring the remaining balance from a </span></span></li><li><span class="tab"><span class="comment line">#   project/event/collective</span></span></li><li><span class="tab"><span class="meta">isBalanceTransfer</span>: <a class="support type" href="boolean.doc.html">Boolean</a></span></li></span></li><li><span class="tab"><li><span class="tab"><span class="comment line">#   Tags associated to the order</span></span></li><li><span class="tab"><span class="meta">tags</span>: [<a class="support type" href="string.doc.html">String</a>]</span></li></span></li><li>}</li></ul></code>
     </div>
 </section>
 <section>

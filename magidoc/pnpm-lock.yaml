@@ -1,21 +1,21 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@magidoc/cli': ^2.13.1
+  '@magidoc/cli': ^2.14.1
 
 devDependencies:
-  '@magidoc/cli': 2.13.1
+  '@magidoc/cli': 2.14.1
 
 packages:
 
-  /@magidoc/cli/2.13.1:
-    resolution: {integrity: sha512-QG0xNNOzQzN00F0/eKrM6yZedbSEAK6siKMXO7Mu83hTb00fepv4JbSgo8y7EiYOsb8oG0vt+1ZLlqmMvIIhZQ==}
+  /@magidoc/cli/2.14.1:
+    resolution: {integrity: sha512-9OH/QwLz5n/FYnFxbxotVFrRYC6858FxmrcfH02hfWw9nptRHvCNvpfRnseodTDMQT0Zz9PTDVWXcv12hr7pIw==}
     engines: {node: '>=16.9'}
     hasBin: true
     dependencies:
-      '@magidoc/plugin-starter-variables': 2.13.1
-      '@magidoc/rollup-plugin-fetch-gql-schema': 2.13.1
-      '@magidoc/rollup-plugin-parse-gql-schema': 2.13.1
+      '@magidoc/plugin-starter-variables': 2.14.1
+      '@magidoc/rollup-plugin-fetch-gql-schema': 2.14.1
+      '@magidoc/rollup-plugin-parse-gql-schema': 2.14.1
       axios: 0.27.2
       chokidar: 3.5.3
       commander: 9.4.0
@@ -31,14 +31,14 @@ packages:
       - supports-color
     dev: true
 
-  /@magidoc/plugin-starter-variables/2.13.1:
-    resolution: {integrity: sha512-J0TQON0lgA1ypEfxQJccj+FK4wkeKNZSgsFlVk7Kz/xjJrAX9A5qsV38LAQKv8DqxNFToUpL2GstonUuarUv0w==}
+  /@magidoc/plugin-starter-variables/2.14.1:
+    resolution: {integrity: sha512-MIGGsB3DAL3zR2KDp8oyoaaBQYfvv34YkDWAi5z7ilAAYZjg4ddIoLFEi5tpssWyHcu/SmKmXtWCQRWQGyJeTA==}
     optionalDependencies:
       zod: 3.19.1
     dev: true
 
-  /@magidoc/rollup-plugin-fetch-gql-schema/2.13.1:
-    resolution: {integrity: sha512-8/yy5EWhJThhuSd4wI8nGl+TPBJ94PQQ2QwDChkW7l7BfyzSRwFFw9kmhaQ5XXT+zKeKnlGma3tTeysDSWFETg==}
+  /@magidoc/rollup-plugin-fetch-gql-schema/2.14.1:
+    resolution: {integrity: sha512-UtzNAC+Crqv0mj8ligyErmG56MbVROMrYXiRSzUWsn8EWOXLLnI4/6c8XFuGZ2gRFjJqfNcyZEZI5amt+yvoKA==}
     dependencies:
       axios: 0.27.2
       graphql: 16.6.0
@@ -46,8 +46,8 @@ packages:
       - debug
     dev: true
 
-  /@magidoc/rollup-plugin-parse-gql-schema/2.13.1:
-    resolution: {integrity: sha512-2pJI8XKh48cSOQ6J7IYv3Epam/fMcu+BqEVKudIRBBGcwSbPmrXV1A8uexee39wYOB47MzywMVcBIbqQYlTSig==}
+  /@magidoc/rollup-plugin-parse-gql-schema/2.14.1:
+    resolution: {integrity: sha512-9/B8gz4ljkKKLlt93p3WKl0ASeVT4MHI4lmUjqqFsHaz5NUYrNDOX8isfoqoACs2vXHUngmIiJCkkGoQghgLKg==}
     dependencies:
       fast-glob: 3.2.12
       graphql: 16.6.0

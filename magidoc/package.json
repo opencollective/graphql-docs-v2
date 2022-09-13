@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@magidoc/cli": "^2.13.1"
+    "@magidoc/cli": "^2.14.1"
   }
 }

@@ -1,5 +1,6 @@
 import path from "path";
 import { fileURLToPath } from "url";
+import { loadMarkdownPagesTree } from '@magidoc/cli'
 
 function relativePath(target) {
   return path.join(path.dirname(fileURLToPath(import.meta.url)), target);
@@ -21,6 +22,7 @@ const configuration = {
       appTitle: "Open Collective",
       appLogo: "/logo.png",
       appFavicon: "/favicon.png",
+      pages: loadMarkdownPagesTree(relativePath("pages")),
       siteMeta: {
         description:
           "Open Collective is an open source platform for communities to collect and disburse money transparently.",
@@ -37,6 +39,9 @@ const configuration = {
       },
     },
   },
+  dev: {
+    watch: [relativePath("pages")],
+  }
 };
 
 export default configuration;

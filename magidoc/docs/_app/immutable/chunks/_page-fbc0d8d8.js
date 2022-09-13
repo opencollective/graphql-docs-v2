@@ -1,0 +1,1 @@
+import{r as e}from"./index-834d2d4d.js";import{h as o}from"./pages-2956cd0b.js";function r(){throw e(301,o)}const l=Object.freeze(Object.defineProperty({__proto__:null,load:r},Symbol.toStringTag,{value:"Module"}));export{l as _,r as l};

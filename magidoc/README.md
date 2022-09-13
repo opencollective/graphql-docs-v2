@@ -1,4 +1,4 @@
-# Open Collective GraphQL API v3 Docs
+# Open Collective GraphQL API v2 Docs
 
 ## Updating:
 **Install dependencies**

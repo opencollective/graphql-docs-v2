@@ -1,0 +1,16 @@
+{
+  "name": "open-collective-api-docs",
+  "version": "1.0.0",
+  "description": "Open Collective's GraphQL API documentation",
+  "scripts": {
+    "build": "magidoc generate",
+    "dev": "magidoc dev",
+    "preview": "magidoc preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@magidoc/cli": "^2.14.1"
+  }
+}

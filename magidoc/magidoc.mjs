@@ -36,6 +36,7 @@ const configuration = {
         DateString: "2021-01-01",
         AccountSettingsKey: "<account-settings-key>",
         IsoDateString: "2021-01-01T00:00:00.000Z",
+        NonEmptyString: "non-empty-string",
       },
     },
   },

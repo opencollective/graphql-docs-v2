@@ -24,6 +24,7 @@ pnpm dev
 ## Deploying
 
 After building, go to docs directory:
+
 `cd docs`
 
 Login on Vercel:

@@ -1,6 +1,6 @@
 import path from "path";
 import { fileURLToPath } from "url";
-import { loadMarkdownPagesTree } from '@magidoc/cli'
+import { loadMarkdownPagesTree } from "@magidoc/cli";
 
 function relativePath(target) {
   return path.join(path.dirname(fileURLToPath(import.meta.url)), target);
@@ -33,6 +33,7 @@ const configuration = {
         EmailAddress: "john.doe@yourwebsite.com",
         JSON: {},
         JSONObject: {},
+        Locale: "en-US",
         DateString: "2021-01-01",
         AccountSettingsKey: "<account-settings-key>",
         IsoDateString: "2021-01-01T00:00:00.000Z",
@@ -43,7 +44,7 @@ const configuration = {
   },
   dev: {
     watch: [relativePath("pages")],
-  }
+  },
 };
 
 export default configuration;

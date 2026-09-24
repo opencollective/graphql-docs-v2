@@ -8,13 +8,16 @@
     "preview": "magidoc preview"
   },
   "engines": {
-    "node": "20.x",
-    "npm": "10.x"
+    "node": "24.x",
+    "npm": "11.x"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@magidoc/cli": "^6.2.0"
+    "@magidoc/cli": "^7.0.0"
+  },
+  "overrides": {
+    "axios": "^1.20.0"
   }
 }

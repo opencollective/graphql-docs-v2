@@ -7,6 +7,7 @@
     "dev": "magidoc dev",
     "preview": "magidoc preview"
   },
+  "packageManager": "pnpm@12.9.1",
   "engines": {
     "node": "24.x",
     "npm": "11.x"
